@@ -1,0 +1,32 @@
+{
+    "nodes":
+    [   {"name":"DOCTOR_VISIT", "root":1 },  
+        {"name":"Patient","root":0 },
+        {"name":"Doctor","root":0}, 
+        {"name":"Doctor's_residence","root":0}, 
+        {"name":"Seeking_me_medical_help","root":0}, 
+
+        {"name":"WIFE_VISIT","root":1}, 
+        {"name":"Patient/Lover","root":0},
+        {"name":"Doctor's_wife","root":0},  
+        {"name":"Doctor's_home","root":0},
+        {"name":"Adultery","root":0}
+        
+    ],
+    "edges":
+    [
+        {"source": 0, "target": 1, "value": "Actor1", "root": 0},
+        {"source": 0, "target": 2, "value": "Actor2", "root": 0},
+        {"source": 0, "target": 3, "value": "Location", "root": 0},
+        {"source": 0, "target": 4, "value": "Activity", "root": 0},
+        {"source": 0, "target": 5, "value": "Thinking strategy", "root": 1},
+
+        {"source": 5, "target": 6, "value": "Actor1", "root": 0},
+        {"source": 5, "target": 7, "value": "Actor2", "root": 0},
+        {"source": 5, "target": 8, "value": "Location", "root": 0},
+        {"source": 5, "target": 9, "value": "Activity", "root": 0}
+    ]
+        
+
+
+}
