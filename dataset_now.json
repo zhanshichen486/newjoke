@@ -4,7 +4,7 @@
         {"name":"Patient","root":0 },
         {"name":"Doctor","root":0}, 
         {"name":"Doctor's_residence","root":0}, 
-        {"name":"Seeking_me_medical_help","root":0}, 
+        {"name":"Seeking_medical_help","root":0}, 
 
         {"name":"WIFE_VISIT","root":1}, 
         {"name":"Patient/Lover","root":0},
