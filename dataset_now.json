@@ -19,7 +19,7 @@
         {"source": 0, "target": 2, "value": "Actor2", "root": 0},
         {"source": 0, "target": 3, "value": "Location", "root": 0},
         {"source": 0, "target": 4, "value": "Activity", "root": 0},
-        {"source": 0, "target": 5, "value": "Thinking strategy", "root": 1},
+        {"source": 0, "target": 5, "value": "SOFIOW", "root": 1},
 
         {"source": 5, "target": 6, "value": "Actor1", "root": 0},
         {"source": 5, "target": 7, "value": "Actor2", "root": 0},
